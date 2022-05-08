@@ -1,0 +1,1 @@
+bowtie2 -p $(( SLURM_CPUS_PER_TASK - 2 )) -q --local -x /fdb/igenomes/Mus_musculus/Ensembl/GRCm38/Sequence/Bowtie2Index/genome -U /ChIP/rawFq/Rep1_Anti-mCh_mch_S52_L007_R1_001.fastq.gz -S /ChIP/sam/Rep1_Anti-mCh_mch.sam

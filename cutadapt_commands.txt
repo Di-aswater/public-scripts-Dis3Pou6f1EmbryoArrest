@@ -1,0 +1,1 @@
+cutadapt -m 10 -j $SLURM_CPUS_PER_TASK -q 20,20 /fastqgz/E2_5_10_S9_L002_R1_001.fastq.gz -o /fastqTrimNo0/E2_5_10_S9_L002_R1_001_cutadapt.fastq.gz

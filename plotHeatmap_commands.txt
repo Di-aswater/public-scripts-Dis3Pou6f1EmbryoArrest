@@ -1,0 +1,1 @@
+plotHeatmap -m mouseGene_chr.gz --colorList 'white,firebrick' --boxAroundHeatmaps no --averageTypeSummaryPlot mean --outFileName mouseGene_chr.pdf --outFileSortedRegions mouseGene_chr_heatmap.bed

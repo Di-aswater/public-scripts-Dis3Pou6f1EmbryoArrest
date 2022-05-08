@@ -1,0 +1,1 @@
+STAR --runThreadN $SLURM_CPUS_PER_TASK --genomeDir genomeDir/ --sjdbGTFfile mouse_ERCC_Genome/MusGRCm38_ERCC.gtf --readFilesCommand gunzip -c --outSAMtype BAM SortedByCoordinate --readFilesIn E2_5_10_S9_L002_R1_001_cutadapt.fastq.gz --outFileNamePrefix E2_5_10_S9_L002_R1_001_cutadapt_

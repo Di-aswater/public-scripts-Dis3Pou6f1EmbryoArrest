@@ -1,0 +1,1 @@
+htseq-count -m intersection-strict -f bam -s no --nonunique all E2_5_10_filtered.bam MusGRCm38_ERCC.gtf > E2_5_10_filtered_count.txt

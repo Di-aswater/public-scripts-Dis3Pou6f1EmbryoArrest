@@ -1,0 +1,1 @@
+samtools view -h -S -b -o /ChIP/bam/Rep1_Anti-IGG_mch_unsorted.bam /ChIP/sam/Rep1_Anti-IGG_mch.sam

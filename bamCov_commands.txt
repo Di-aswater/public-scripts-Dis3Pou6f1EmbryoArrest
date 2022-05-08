@@ -1,0 +1,1 @@
+bamCoverage --normalizeUsing CPM -b Rep1_Anti-mCh_pou6f1mch_sorted_filtered.bam -p $SLURM_CPUS_PER_TASK -o Rep1_Anti-mCh_pou6f1mch_sorted_filtered_CPM.bw

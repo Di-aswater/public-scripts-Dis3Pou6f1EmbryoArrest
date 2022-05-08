@@ -1,0 +1,1 @@
+sambamba view -h -t $SLURM_CPUS_PER_TASK -f bam -F "[XS] == null and not unmapped  and not duplicate" /ChIP/bam_sorted/Rep2_Anti-IGG_pou6f1mch_sorted.bam > /ChIP/bam_sorted_filtered/Rep2_Anti-IGG_pou6f1mch_sorted_filtered.bam

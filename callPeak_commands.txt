@@ -1,0 +1,1 @@
+macs2 callpeak -t /bam_sorted_filtered/Rep1_Anti-mCh_pou6f1mch* -c bam_sorted_filtered/Rep1_Anti-IGG_pou6f1mch* -f BAM -B -g mm -n Rep1_1 --outdir /peakFolder/

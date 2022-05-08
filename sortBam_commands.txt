@@ -1,0 +1,1 @@
+sambamba sort -t $SLURM_CPUS_PER_TASK -o /ChIP/bam_sorted/Rep2_Anti-IGG_mch_sorted.bam /ChIP/bam/Rep2_Anti-IGG_mch_unsorted.bam
